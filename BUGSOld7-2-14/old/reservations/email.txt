@@ -1,0 +1,17 @@
+To:[name] <[email]>
+CC:Spencer_Brody@brown.edu
+From:BUGS Reservation <Spencer_Brody@brown.edu>
+Subject:HMS Pinafore reservation: [number] for [show], [name]
+
+Hello [name], this email confirms that you have reserved tickets for the BUGS production of HMS PINAFORE.
+
+You have requested [number] tickets for this show: [show]
+
+Please note that reservations must be made at least 12 hours prior to showtime, or they may not be processed -- even if you get this email.
+
+The production will be in Alumnae Hall of the Brown University Campus.
+Campus Map: http://fm-cad.plantops.brown.edu/maps/PAUR_Campus_Map.pdf
+
+Seating will begin 30 minutes prior to the showtime.  Please arrive at least 15 minutes before showtime to guarantee seating.  All tickets are open seating.
+
+Admission is free, but BUGS depends on audience donations.

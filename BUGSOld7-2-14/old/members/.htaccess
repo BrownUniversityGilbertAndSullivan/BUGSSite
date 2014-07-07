@@ -1,0 +1,6 @@
+# .htaccess file
+#
+AuthType Basic
+require user stbrody boardmember
+AuthUserFile /www/data/httpd/htdocs/Students/BUGS/.htpasswd
+AuthName BrownAuth_19444

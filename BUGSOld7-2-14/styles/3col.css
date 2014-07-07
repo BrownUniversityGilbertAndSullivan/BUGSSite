@@ -1,0 +1,209 @@
+/* BUGS 3-column stylesheet */
+/* adapted from English Dept stylesheets */
+
+body  {	background: #006699;    }
+
+#box	{
+	width: 780px;
+	border: 2px solid #000;
+	background-color: #ffffff;
+	text-align: left;
+	margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+	}
+	
+#header	{
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	}
+	
+#goods {
+	width: 780px;
+	padding: 0px;
+	}
+
+#clear	{
+	clear: left;
+    width: 740px;
+    margin: 0;
+    padding: 0 20px;
+    border: 0;
+    }
+
+#leftcol	{
+	float: left;
+	width: 170px;
+	padding-left: 14px;
+	padding-right: 10px;
+	margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+	}
+	
+#leftcol ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+#leftcol ul li {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 105%;
+    color: #006699;
+    text-decoration: none;
+    }
+	
+#leftcol ul ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+#leftcol ul ul li {
+    list-style: none;
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    margin-left: 14px;
+    font-weight: bold;
+    line-height: 100%;
+    color: #006699;
+    }
+
+#search {
+    margin-top: 20px;
+	}
+
+#rightcol	{
+	float: left;
+	width: 150px;
+	padding-left: 18px;
+	margin-top: 0px;
+	border-left: 0;
+	padding-top: 75px;
+    padding-bottom: 0px;
+	}
+
+#rightcol ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+#rightcol ul li {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 105%;
+    color: #006699;
+    text-decoration: none;
+    }
+    
+#main {
+	width: 365px;
+	float: left;
+    padding-left: 18px;
+    padding-right: 18px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left: 1px solid #006699;
+	border-right: 1px solid #006699;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0;
+	}
+
+/* to have horizontal rule above the footer, set border and margin to 0. Might also need to reinsert: width: 740px; */
+#footer	{
+	clear: left;
+    margin-left: 194px;
+    margin-right: 183px;
+    padding: 0;
+	border-left: 1px solid #006699;
+	border-right: 1px solid #006699;
+    text-align: center;
+    }
+
+a:link, a:visited {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    color: #006699;
+    text-decoration: none;
+    }
+    
+/* select a different color for the hover feature */
+a:hover {
+	text-decoration : underline;
+	color: #660000;
+	}
+	
+p   { 
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    }
+    
+p.topmain  {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    }
+
+p.foot  {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: .7em;
+    }
+
+p.right  {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    }
+    
+p.magenta  {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: #800080;
+    }   
+       
+span.magenta  {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    color: #800080;
+    }  
+
+dl.right  {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    }    
+    
+h1	{
+	color: #416371;
+	font-size: 2em;
+	font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+	}
+	
+h2	{
+	color: #000;
+	font-size: 1.2em;
+	font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+	}	
+	
+table   {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+	}
+
+li  {
+    font-family: Optima, Trebuchet, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    }
+    
+/* firefox will put a border around linked images without this */
+img { border: 0;    }
+

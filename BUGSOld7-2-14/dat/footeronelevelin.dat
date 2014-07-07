@@ -1,0 +1,20 @@
+<p class="foot">  
+
+<br>
+
+<a href="http://www.brown.edu">Brown University</a> |
+
+<a href="http://www.brown.edu/Facilities/Facilities_Management/maps.php">Campus Maps</a> |
+
+<a href="http://www.brown.edu/Administration/Student_Activities">Student Activities Office</a> |
+
+<a href="http://www.brown.edu/Students/BUGS/about.php#contact">Contact BUGS</a>
+
+<br />
+
+ <?php
+echo "Last modified: " . date("F d, Y h:i:s",filemtime($_SERVER["PATH_TRANSLATED"]));
+?> 
+
+ </p>
+

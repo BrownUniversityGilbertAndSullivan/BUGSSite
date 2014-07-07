@@ -1,0 +1,22 @@
+To: [e-mail]
+BCC: jentina_mitchell@brown.edu
+From: BUGS Reservations <jentina_mitchell@brown.edu>
+Subject: Confirmation
+
+Hello [name],
+
+Your reservation has been received for the BUGS Fall 2010 production of Ruddigore:
+
+Seats to be reserved: [seats]
+Showtime: [date]
+
+Please note that reservations must be made at least 12 hours prior to showtime, or they may not be processed -- even if you get this email.
+
+The production will be in Alumnae Hall of the Brown University Campus.
+Campus Map: http://fm-cad.plantops.brown.edu/maps/PAUR_Campus_Map.pdf
+
+Seating for reserve ticket holders begins half an hour before the show.  Open seating will begin fifteen minutes before the curtain, so please arrive at least fifteen minutes in advance to ensure priority seating.
+
+Admission is free, but BUGS depends on audience donations.
+
+http://www.brown.edu/Students/BUGS/

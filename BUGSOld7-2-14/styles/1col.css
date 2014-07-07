@@ -1,0 +1,225 @@
+/* BUGS 2-column stylesheet */
+/* adapted from English Dept stylesheets */
+
+body  {	background: #006699;    }
+
+#box	{
+	width: 780px;
+	border: 2px solid #000;
+	background-color: #ffffff;
+	text-align: left;
+	margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+	}
+	
+#header	{
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	}
+	
+#goods {
+	width: 780px;
+	padding: 0px;
+	}
+
+#clear	{
+	clear: left;
+    width: 740px;
+    margin: 0;
+    padding: 0 20px;
+    border: 0;
+    }
+
+#leftcol	{
+	float: left;
+	width: 170px;
+	padding-left: 14px;
+	padding-right: 10px;
+	margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	}
+	
+#leftcol ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+#leftcol ul li {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    line-height: 105%;
+    color: #006699;
+    text-decoration: none;
+    }
+	
+#leftcol ul ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+#leftcol ul ul li {
+    list-style: none;
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 10pt;
+    margin-top: 0px;
+    margin-bottom: 6px;
+    margin-left: 14px;
+    font-weight: bold;
+    line-height: 100%;
+    color: #006699;
+    }
+
+
+#search {
+    margin-top: 20px;
+	}
+
+	
+#main {
+	width: 540px;
+	float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0;
+	}
+
+#footer	{
+	clear: left;
+    width: 740px;
+    margin: 0;
+    padding: 0 20px;
+    border: 0;
+    text-align: center;
+    }
+
+a:link, a:visited {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    color: #006699;
+    text-decoration: none;
+    }
+    
+/* select a different color for the hover feature */
+a:hover {
+	text-decoration : underline;
+	color: #00a8ff;
+	}
+	
+p   { 
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 12pt;
+    }
+    
+p.topmain  {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 14pt;
+    }
+
+p.fac-text  {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 10pt;
+    }
+
+p.credits  {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: .8em;
+    }
+    
+p.foot  {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 1em;
+    }
+
+p.magenta  {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    color: #800080;
+    }
+
+span.qa	{ 
+	font-weight: bold;
+	color: #006699;
+    }
+    
+span.subscript	{ 
+	font-size: .7em;
+    }
+
+span.underline	{ 
+	text-decoration: underline;
+    }
+
+span.sub-color	{ 
+	font-size: .7em;
+	color: #660000;
+    }
+    
+span.subscript2{ 
+	font-size: .8em;
+    }
+    
+h1	{
+	color: #006699;
+	font-size: 3em;
+	font-family: Garamond, "Times New Roman", Times;
+	}
+	
+h2	{
+	color: #006699;
+	font-size: 2em;
+	font-family: Garamond, "Times New Roman", Times;
+	}	
+	
+h3	{
+	color: #006699;
+	font-size: 1.5em;
+	font-family: Garamond, "Times New Roman", Times;
+	}	
+	
+table   {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 11pt;
+	}
+
+dl	{
+	padding-right:1px;
+	}
+	
+dd	{
+	text-align: left;
+	margin-left: 10pt;
+	}
+
+li  {
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 11pt;
+    }
+    
+p.space	{
+	font-size: 6pt;
+	line-height: 10%;
+	}
+
+blockquote   { 
+    font-family: "Gill Sans MT", "Gill Sans", Helvetica;
+    font-size: 11pt;
+    }  
+/* firefox will put a border around linked images without this */
+img { border: 0;    }
+
+img.r-float   {
+    padding: 0px 0px 16px 16px;
+    float: right;
+    }

@@ -1,0 +1,4 @@
+AuthUserFile /export/home/stbrody/.htpasswd
+AuthName "BUGS members only section"
+AuthType Basic
+Require valid-user
