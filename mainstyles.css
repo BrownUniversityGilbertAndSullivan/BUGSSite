@@ -32,7 +32,7 @@
 .home-link {
     position: absolute;
     background-color: transparent;
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     border-radius: 50%;
     top: -25%;
     left: 26%;
@@ -40,53 +40,61 @@
     height: 50%;
 }
 
+.home-link:hover {
+    background: rgba(255, 255, 255, 0.1)
+}
+
 .menu-link {
     position: absolute;
     background-color: transparent; 
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     border-radius: 50%;
 }
 
+.menu-link:hover {
+    background: rgba(255, 255, 255, 0.1)
+}
+
 #menu1 {
-    top: 25.3%; 
-    left: 21.5%; 
+    top: 25.5%; 
+    left: 21.7%; 
     width: 7.0%; 
     height: 16.4%;
 }
 
 #menu2 {
-    top: 59.5%;
-    left: 21.5%;
+    top: 59.56%;
+    left: 21.7%;
     width: 7.0%;
-    height: 16.4%;
+    height: 16.6%;
 }
 
 #menu3 {
-    top: 82.4%;
+    top: 82.6%;
     left: 35.6%;
-    width: 7.0%;
+    width: 7.2%;
     height: 16.4%;
 }
 
 #menu4 {
-    top: 82.4%;
-    left: 56.4%;
-    width: 7.0%;
+    top: 82.6%;
+    left: 56.3%;
+    width: 7.2%;
     height: 16.4%;
 }
 
 #menu5 {
-    top: 59.5%;
-    left: 71.4%;
+    top: 59.56%;
+    left: 71.3%;
     width: 7.0%;
-    height: 16.4%;
+    height: 16.6%;
 }
 
 #menu6 {
     top: 25.3%; 
     left: 70.8%; 
     width: 7.0%; 
-    height: 16.4%;
+    height: 16.7%;
 }
 
 #box-bl {
