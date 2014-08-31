@@ -24,7 +24,7 @@
 
 .content-box {
     position: absolute;
-    background-color: transparent; 
+    background: rgba(255, 255, 255, 0.4); 
     border: 1px solid pink;
     border-radius: 0%;
 }
@@ -133,9 +133,17 @@
 
 #center-main {
     border: 1px solid darkblue;
-    background-color: white;
     top: 30%;
     left: 31%;
     width: 37.7%;
     height: 50%;
+    overflow-y: scroll;
+}
+
+.footer {
+    
+}
+
+.foot {
+    text-align: center;
 }
