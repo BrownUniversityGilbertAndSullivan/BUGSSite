@@ -22,10 +22,6 @@
     
 }
 
-.stuffs {
-    
-}
-
 .content-box {
     position: absolute;
     background-color: transparent; 
@@ -133,4 +129,13 @@
     left: 78.9%;
     width: 20.9%;
     height: 34%;
+}
+
+#center-main {
+    border: 1px solid darkblue;
+    background-color: white;
+    top: 30%;
+    left: 31%;
+    width: 37.7%;
+    height: 50%;
 }
