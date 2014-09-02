@@ -40,17 +40,8 @@
     border-radius: 0%;
 }
 
-.link-box a:link {
+.link-box a {
     color: #faffc9;
-}
-
-.link-box a:visited {
-    /*color: #faffc9;*/
-    color: #edc4ff;
-}
-
-.link-box a:active {
-    color: #edc4ff;
 }
 
 .home-link {
