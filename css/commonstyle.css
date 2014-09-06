@@ -114,49 +114,51 @@
 }
 
 #box-bl {
-    top: 67%;
-    left: 0%;
-    width: 21.4%;
-    height: 32.7%;
+    bottom: 6%;
+    left: 3%;
+    width: 16.4%;
+    height: 33.1%;
 }
 
 #box-br {
-    top: 67%;
-    right: 0%;
-    width: 21.4%;
-    height: 32.7%;
+    bottom: 6.4%;
+    right: 3%;
+    width: 18.4%;
+    height: 29.9%;
 }
 
 #box-ml {
-    top: 34%;
-    left: 0%;
-    width: 21.4%;
-    height: 33%;
+    bottom: 39.3%;
+    left: 3%;
+    width: 16.4%;
+    height: 22%;
 }
 
 #box-mr {
-    top: 34%;
-    right: 0%;
-    width: 21.4%;
-    height: 33%;
+    top: 37.2%;
+    right: 3%;
+    width: 14.4%;
+    height: 26%;
 }
 
 #box-tl {
-    top: 0%;
-    left: 0%;
-    width: 21.4%;
-    height: 34%;
+    top: 6%;
+    left: 3%;
+    width: 18.2%;
+    height: 32.2%;
 }
 
 #box-tr {
-    top: 0%;
-    right: 0%;
-    width: 21.4%;
-    height: 34%;
+    top: 6.4%;
+    right: 3%;
+    width: 18.4%;
+    height: 30.6%;
 }
 
 #center-main {
-    border: 1px solid darkblue;
+    /*border: 1px solid darkblue;*/
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
     top: 30%;
     left: 31.5%;
     width: 36.9%;
