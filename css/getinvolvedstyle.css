@@ -1,0 +1,44 @@
+#backdrop {
+    background: 
+        url(../graphics/get_involved.png) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+#box-tl {
+    top: 9%;
+    left: 3%;
+    width: 18.2%;
+    height: 24.4%;
+}
+
+#box-tr {
+    top: 9%;
+    right: 3%;
+    width: 18.2%;
+    height: 31.4%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#box-tr p {
+    text-align: center;
+}
+
+#box-bl {
+    bottom: 8.7%;
+    left: 3%;
+    width: 18.4%;
+    height: 18.9%;
+    background: rgba(255, 255, 255, 0.2);   
+}
+#box-br {
+    bottom: 8.7%;
+    right: 3%;
+    width: 18.4%;
+    height: 18.9%;
+    background: rgba(255, 255, 255, 0.2);
+}

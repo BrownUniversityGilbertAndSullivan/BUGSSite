@@ -1,0 +1,54 @@
+#backdrop {
+    background: 
+        url(../graphics/about_gs.png) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+/*#box-ml {
+    bottom: 39.3%;
+    left: 3%;
+    width: 16.4%;
+    height: 14.2%;
+}*/
+
+/*#box-mr {
+    top: 48.9%;
+    right: 3%;
+    width: 18.4%;
+    height: 14.3%;
+}*/
+
+#box-tl {
+    top: 7.6%;
+    left: 5.5%;
+    width: 12.2%;
+    height: 38.4%;
+}
+
+#box-tr {
+    top: 7.6%;
+    right: 6%;
+    width: 11.0%;
+    height: 41.1%;
+}
+
+#box-bl {
+    bottom: 6%;
+    left: 5.5%;
+    width: 12.2%;
+    height: 47.4%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#box-br {
+    bottom: 6%;
+    right: 6%;
+    width: 11.0%;
+    height: 45%;
+    background: rgba(255, 255, 255, 0.2);
+}

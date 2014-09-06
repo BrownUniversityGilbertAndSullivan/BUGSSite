@@ -1,0 +1,17 @@
+#backdrop {
+    background: 
+        url(../graphics/past_plays/past_pirates.png) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+#box-tl {
+    top: 9%;
+    left: 3%;
+    width: 18.2%;
+    height: 24.4%;
+}
