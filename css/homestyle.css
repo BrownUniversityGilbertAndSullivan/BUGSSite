@@ -1,0 +1,17 @@
+#backdrop {
+    background: 
+        url(../graphics/home/image_overlay.png) no-repeat center center fixed,
+        url(../graphics/common/corner_flourishes.png) no-repeat center center fixed,
+        url(../graphics/common/button_title_text.png) no-repeat center center fixed,
+        url(../graphics/commons/borders.png) no-repeat center center fixed,
+        url(../graphics/common/buttons.png) no-repeat center center fixed,
+        url(../graphics/common/outer_backdrop.png) no-repeat center center fixed,
+        url(../graphics/home/backdrop.png) no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
