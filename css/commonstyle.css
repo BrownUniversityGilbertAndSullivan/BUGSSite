@@ -216,3 +216,24 @@
     text-align: center;
     color: black;
 }
+
+.change-show-link {
+    /*background: rgba(255, 255, 255, 0.4);*/
+    /*border: 1px solid pink;*/
+    position: absolute;
+    border-radius: 30%;
+}
+
+#next-show {
+    top: 47%;
+    right: 25.5%;
+    height: 9.6%;
+    width: 5.3%;
+}
+
+#prev-show {
+    top: 47%;
+    left: 25.5%;
+    height: 9.6%;
+    width: 5.3%;
+}
