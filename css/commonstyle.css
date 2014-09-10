@@ -160,7 +160,7 @@
     left: 31.5%;
     width: 36.9%;
     height: 50%;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 #link-bl {
