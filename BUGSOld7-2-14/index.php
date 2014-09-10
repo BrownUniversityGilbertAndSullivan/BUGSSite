@@ -101,7 +101,7 @@ Show dates are Friday April 18 at 8pm, Saturday April 19 at 2pm and 8pm, and Sun
 EVERYTHING BETWEEN THESE MARKERS WILL NOT BE DISPLAYED -->
 
 <h2 class="topmain" style="text-align:center">BUGS is proud to announce our Fall 2014 production of Ruddigore!</h2>
-<h3 class="topmain" style="text-align:center">Directed by Jonathan West '16<br>Music Directed by Matthew Slesinski '16</h3>
+<h3 class="topmain" style="text-align:center">Directed by Jonathan West '16<br>Music Directed by Ian MacDougald '17</h3>
 <p style="text-align:center">Email Production Manager Solomon Goldstein-Rose (Solomon_Goldstein-Rose@brown.edu) if you are interested in being part of the production team</p>
 
 <h3 class="topmain" style="text-align:center">Congratulations to the cast, crew, and production team of Camelot on a wonderful production!</h3>
