@@ -41,8 +41,13 @@
     bottom: 6.4%;
     right: 3%;
     width: 18.4%;
-    height: 28.5%;
-    background: rgba(255, 255, 255, 0.2);
+    height: 18.5%;
+    color: #f2d9d0;
+    /*background: rgba(255, 255, 255, 0.2);*/
+}
+
+#box-br a {
+    color: #f2d9d0;
 }
 
 #box-ml {
