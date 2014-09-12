@@ -17,11 +17,16 @@
 }
 
 #box-tr {
-    top: 9%;
+    top: 7%;
     right: 3%;
     width: 18.2%;
     height: 31.4%;
-    background: rgba(255, 255, 255, 0.2);
+    /*background: rgba(255, 255, 255, 0.2);*/
+    color: #f2d9d0;
+}
+
+#box-tr a {
+    color: #f2d9d0;
 }
 
 #box-tr p {
@@ -33,12 +38,23 @@
     left: 3%;
     width: 18.4%;
     height: 18.9%;
-    background: rgba(255, 255, 255, 0.2);   
+    /*background: rgba(255, 255, 255, 0.2);*/
+    color: #f2d9d0;
 }
+
+#box-bl a {
+    color: #f2d9d0;
+}
+
 #box-br {
     bottom: 8.7%;
     right: 3%;
     width: 18.4%;
-    height: 18.9%;
-    background: rgba(255, 255, 255, 0.2);
+    height: 12.9%;
+    /*background: rgba(255, 255, 255, 0.2);*/
+    color: #f2d9d0;
+}
+
+#box-br a {
+    color: #f2d9d0;
 }
