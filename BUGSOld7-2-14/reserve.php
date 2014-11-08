@@ -44,11 +44,12 @@
 
 	<!--p>&nbsp;</p-->
 		<h2>Ticket Reservations</h2>
-		<h3>Camelot, April 18-20</h3>
-		<p class="topmain">Performances will be held Friday at 8pm, Saturday at 2pm and 8pm, and Sunday at 2pm in Alumnae Hall (194 Meeting Street).</p>
+		<h3>Ruddigore, November 14-16</h3>
+		<p class="topmain">Performances will be held Friday at 8pm, Saturday at 2pm and 8pm, and Sunday at 3pm in Alumnae Hall (194 Meeting Street).</p>
 
 		<!-- GOOGLE DOC FOR RESERVATIONS : EDIT BELOW -->
-		<iframe src="https://docs.google.com/forms/d/1J_1-SbpnIoOybSbomXGKxov_r3Ir67RgjKJshi1QKuQ/viewform?embedded=true" width="550" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+		
+		<iframe src="https://docs.google.com/forms/d/1-rQPWSp2zKhM6nbkwMv4xtwbY66WOgyoRuYw85qu_hE/viewform?embedded=true" width="550" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe>
 		<!-- GOOGLE DOC FOR RESERVATIONS : EDIT ABOVE -->
 
 <!-- end main div -->
