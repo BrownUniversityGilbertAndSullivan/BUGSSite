@@ -8,3 +8,82 @@
     background-size: 100% 100%;
     width: 100%;
 }
+
+.content-box {
+    position: absolute;
+    /*background: rgba(255, 255, 255, 0.4);*/ 
+    /*border: 1px solid pink;*/
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.content-box:hover {
+    background: rgba(255, 255, 255, 0.1);
+/*    cursor: pointer;*/
+}
+
+/*.content-box div { position: absolute; top:0%; height: 100%; border: 1px solid pink;}
+.content-box div p {position: relative; top: 25%; text-align: center; color: white;}*/
+
+.content-box p {
+    position: relative;
+    top: 25%;
+    text-align: center;
+    color: white;
+}
+
+#box-1oc {
+    top: 6.2%;
+    right: 11.4%;
+    width: 7.5%;
+    height: 17.1%;
+}
+
+#box-2oc {
+    top: 20%;
+    right: 3.1%;
+    width: 7.5%;
+    height: 17.1%;
+}
+
+#box-4oc {
+    bottom: 23.9%;
+    right: 3.1%;
+    width: 7.5%;
+    height: 17.1%;
+}
+
+#box-5oc {
+    bottom: 10.3%;
+    right: 11.4%;
+    width: 7.5%;
+    height: 17.1%;
+}
+
+#box-7oc {
+    bottom: 10.0%;
+    left: 11.9%;
+    width: 7.5%;
+    height: 17.1%;
+}
+
+#box-8oc {
+    bottom: 23.9%;
+    left: 3.9%;
+    width: 7.5%;
+    height: 17.1%;
+}
+
+#box-10oc {
+    top: 20%;
+    left: 3.9%;
+    width: 7.5%;
+    height: 17.1%;
+}
+
+#box-11oc {
+    top: 6.2%;
+    left: 11.9%;
+    width: 7.5%;
+    height: 17.1%;
+}
