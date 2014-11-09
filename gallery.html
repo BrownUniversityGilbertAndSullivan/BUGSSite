@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="css/commonstyle.css" type="text/css"/>
         <link rel="stylesheet" href="css/gallerystyle.css" type="text/css"/>
+        <link rel="stylesheet" href="css/blueimp-gallery.css">
         <link rel="icon" type="image/png" href="graphics/favicon.png">
 
         <title>Brown University Gilbert & Sullivan</title>
@@ -28,6 +29,28 @@
             <div class="menu-container">
                 <div class="content-box" id="center-main">
                     <!--Content goes here.-->
+                    <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+                    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+                        <div class="slides"></div>
+                        <h3 class="title"></h3>
+                        <p class="description">Text hahaha</p>
+                        <a class="prev">‹</a>
+                        <a class="next">›</a>
+                        <a class="close">×</a>
+                        <a class="play-pause"></a>
+                        <ol class="indicator"></ol>
+                    </div>
+                    <div id="links">
+                        <a href="img/error.png" title="Banana" data-description="banana desc">
+                            <img src="img/error.png" alt="Banana">
+                        </a>
+                        <a href="img/play-pause.png" title="Apple" data-description="apple desc">
+                            <img src="img/play-pause.png" alt="Apple">
+                        </a>
+                        <a href="img/video-play.png" title="Orange" data-description="orange desc">
+                            <img src="img/video-play.png" alt="Orange">
+                        </a>
+                    </div>
                     
                 </div>
                 <div class="content-box" id="box-tl">
@@ -69,5 +92,28 @@
                 <a class="menu-link" id="menu6" href="getinvolved.html"></a>
             </div>
         </div>
+        <script src="js/blueimp-gallery.min.js"></script>
+        <script>
+            document.getElementById('links').onclick = function (event) {
+            event = event || window.event;
+            var target = event.target || event.srcElement,
+                link = target.src ? target.parentNode : target,
+                options = {
+                    index: link, 
+                    event: event,
+                    onslide: function (index, slide) {
+                        var text = this.list[index].getAttribute('data-description'),
+                            node = this.container.find('.description');
+                        console.log(text);
+                        node.empty();
+                        if (text) {
+                            node[0].appendChild(document.createTextNode(text));
+                        }
+                    }
+                },
+                links = this.getElementsByTagName('a');
+            blueimp.Gallery(links, options);
+            };
+        </script>
     </body>
 </html>
