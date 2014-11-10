@@ -303,18 +303,376 @@ window.addEventListener('load', function(){
     //Pirates Spring 2013
     box2oc.onclick = function(event){
         resetThings(this);
-        document.getElementById("links").innerHTML = "<a href='img/play-pause.png' title='Apple' data-description='apple desc'>" +
-                            "<img src='img/play-pause.png' alt='Apple'/></a>" +
-                        "<a href='img/video-play.png' title='Orange' data-description='orange desc'>" +
-                            "<img src='img/video-play.png' alt='Orange'/></a>";
+        document.getElementById("links").innerHTML = 
+                "<a href='gallery/piratesSpring2013/pirates1.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates1.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates2.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates2.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates3.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates3.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates4.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates4.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates5.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates5.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates6.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates6.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates7.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates7.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates8.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates8.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates9.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates9.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates10.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates10.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates11.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates11.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates12.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates12.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates13.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates13.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates14.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates14.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates15.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates15.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates16.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates16.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates17.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates17.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates18.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates18.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates19.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates19.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates20.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates20.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates21.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates21.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates22.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates22.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates23.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates23.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates24.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates24.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates25.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates25.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates26.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates26.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates27.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates27.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates28.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates28.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates29.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates29.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates30.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates30.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates31.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates31.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates32.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates32.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates33.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates33.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates34.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates34.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates35.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates35.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates36.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates36.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates37.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates37.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates38.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates38.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates39.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates39.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates40.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates40.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates41.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates41.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates42.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates42.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates43.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates43.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates44.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates44.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates45.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates45.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates46.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates46.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates47.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates47.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates48.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates48.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates49.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates49.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates50.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates50.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates51.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates51.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates52.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates52.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates53.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates53.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates54.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates54.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates55.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates55.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates56.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates56.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates57.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates57.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates58.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates58.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates59.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates59.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates60.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates60.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates61.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates61.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates62.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates62.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates63.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates63.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates64.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates64.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates65.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates65.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates66.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates66.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates67.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates67.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates68.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates68.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates69.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates69.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates70.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates70.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates71.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates71.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates72.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates72.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates73.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates73.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates74.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates74.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates75.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates75.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates76.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates76.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates77.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates77.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates78.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates78.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates79.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates79.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates80.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates80.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates81.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates81.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates82.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates82.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates83.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates83.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates84.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates84.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates85.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates85.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates86.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates86.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates87.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates87.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates88.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates88.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates89.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates89.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates90.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates90.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates91.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates91.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates92.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates92.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates93.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates93.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates94.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates94.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates95.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates95.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates96.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates96.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates97.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates97.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates98.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates98.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates99.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates99.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates100.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates100.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates101.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates101.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates102.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates102.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates103.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates103.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates104.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates104.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates105.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates105.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates106.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates106.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates107.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates107.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates108.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates108.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates109.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates109.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates110.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates110.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates111.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates111.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates112.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates112.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates113.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates113.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates114.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates114.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates115.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates115.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates116.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates116.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates117.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates117.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates118.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates118.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates119.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates119.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates120.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates120.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates121.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates121.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates122.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates122.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates123.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates123.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates124.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates124.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates125.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates125.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates126.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates126.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates127.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates127.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates128.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates128.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates129.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates129.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates130.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates130.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates131.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates131.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates132.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates132.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates133.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates133.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates134.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates134.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates135.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates135.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates136.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates136.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates137.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates137.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates138.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates138.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates139.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates139.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates140.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates140.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates141.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates141.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates142.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates142.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates143.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates143.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates144.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates144.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates145.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates145.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates146.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates146.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates147.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates147.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates148.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates148.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates149.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates149.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates150.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates150.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates151.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates151.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates152.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates152.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates153.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates153.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates154.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates154.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates155.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates155.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates156.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates156.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates157.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates157.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates158.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates158.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates159.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates159.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates160.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates160.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates161.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates161.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates162.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates162.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates163.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates163.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates164.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates164.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates165.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates165.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates166.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates166.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates167.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates167.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates168.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates168.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates169.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates169.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates170.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates170.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates171.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates171.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates172.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates172.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates173.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates173.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates174.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates174.jpg' alt='Pirates of Penzance'/></a>" +
+                "<a href='gallery/piratesSpring2013/pirates175.jpg' title='Pirates of Penzance' data-description=''>" + 
+                "<img src='gallery/piratesSpring2013/thumbs/pirates175.jpg' alt='Pirates of Penzance'/></a>";
     };
     //Patience Fall 2012
     box4oc.onclick = function(event){
         resetThings(this);
-        document.getElementById("links").innerHTML = "<a href='img/play-pause.png' title='Apple' data-description='apple desc'>" +
-                            "<img src='img/play-pause.png' alt='Apple'/></a>" +
-                        "<a href='img/video-play.png' title='Orange' data-description='orange desc'>" +
-                            "<img src='img/video-play.png' alt='Orange'/></a>";
+        document.getElementById("links").innerHTML = 
+                "<a href='gallery/patienceFall2012/patience1.jpg' title='Patience' data-description=''>" + 
+                "<img src='gallery/patienceFall2012/thumbs/patience1.jpg' alt='Patience'/></a>" +
+                "<a href='gallery/patienceFall2012/patience2.jpg' title='Patience' data-description=''>" + 
+                "<img src='gallery/patienceFall2012/thumbs/patience2.jpg' alt='Patience'/></a>" +
+                "<a href='gallery/patienceFall2012/patience3.jpg' title='Patience' data-description=''>" + 
+                "<img src='gallery/patienceFall2012/thumbs/patience3.jpg' alt='Patience'/></a>" +
+                "<a href='gallery/patienceFall2012/patience4.jpg' title='Patience' data-description=''>" + 
+                "<img src='gallery/patienceFall2012/thumbs/patience4.jpg' alt='Patience'/></a>" +
+                "<a href='gallery/patienceFall2012/patience5.jpg' title='Patience' data-description=''>" + 
+                "<img src='gallery/patienceFall2012/thumbs/patience5.jpg' alt='Patience'/></a>" +
+                "<a href='gallery/patienceFall2012/patience6.jpg' title='Patience' data-description=''>" + 
+                "<img src='gallery/patienceFall2012/thumbs/patience6.jpg' alt='Patience'/></a>" +
+                "<a href='gallery/patienceFall2012/patience7.jpg' title='Patience' data-description=''>" + 
+                "<img src='gallery/patienceFall2012/thumbs/patience7.jpg' alt='Patience'/></a>";
     };
     //Older Photos
     box5oc.onclick = function(event){
@@ -1153,18 +1511,126 @@ window.addEventListener('load', function(){
     //Sing-in 2013
     box8oc.onclick = function(event){
         resetThings(this);
-        document.getElementById("links").innerHTML = "<a href='img/play-pause.png' title='Apple' data-description='apple desc'>" +
-                            "<img src='img/play-pause.png' alt='Apple'/></a>" +
-                        "<a href='img/video-play.png' title='Orange' data-description='orange desc'>" +
-                            "<img src='img/video-play.png' alt='Orange'/></a>";
+        document.getElementById("links").innerHTML = 
+                "<a href='gallery/singin2013/singin131.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin131.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin132.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin132.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin133.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin133.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin134.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin134.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin135.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin135.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin136.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin136.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin137.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin137.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin138.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin138.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin139.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin139.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin1310.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin1310.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin1311.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin1311.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin1312.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin1312.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin1313.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin1313.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin1314.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin1314.jpg' alt='Sing-In 2013'/></a>" +
+                "<a href='gallery/singin2013/singin1315.jpg' title='Sing-In 2013' data-description=''>" + 
+                "<img src='gallery/singin2013/thumbs/singin1315.jpg' alt='Sing-In 2013'/></a>";
     };
     //Sing-in 2014
     box10oc.onclick = function(event){
         resetThings(this);
-        document.getElementById("links").innerHTML = "<a href='img/play-pause.png' title='Apple' data-description='apple desc'>" +
-                            "<img src='img/play-pause.png' alt='Apple'/></a>" +
-                        "<a href='img/video-play.png' title='Orange' data-description='orange desc'>" +
-                            "<img src='img/video-play.png' alt='Orange'/></a>";
+        document.getElementById("links").innerHTML = 
+                "<a href='gallery/singin2014/singin141.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin141.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin142.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin142.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin143.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin143.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin144.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin144.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin145.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin145.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin146.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin146.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin147.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin147.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin148.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin148.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin149.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin149.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1410.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1410.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1411.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1411.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1412.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1412.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1413.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1413.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1414.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1414.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1415.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1415.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1416.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1416.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1417.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1417.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1418.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1418.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1419.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1419.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1420.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1420.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1421.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1421.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1422.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1422.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1423.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1423.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1424.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1424.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1425.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1425.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1426.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1426.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1427.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1427.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1428.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1428.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1429.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1429.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1430.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1430.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1431.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1431.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1432.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1432.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1433.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1433.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1434.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1434.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1435.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1435.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1436.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1436.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1437.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1437.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1438.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1438.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1439.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1439.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1440.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1440.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1441.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1441.jpg' alt='Sing-In 2014'/></a>" +
+                "<a href='gallery/singin2014/singin1442.jpg' title='Sing-In 2014' data-description=''>" + 
+                "<img src='gallery/singin2014/thumbs/singin1442.jpg' alt='Sing-In 2014'/></a>";
     };
     //Camelot Spring 2014
     box11oc.onclick = function(event){
