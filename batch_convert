@@ -1,0 +1,3 @@
+#! /bin/bash
+THUMBS=~/imgs/thumbs
+for i in {1..130}; do convert -sample 200x150 "raw/iolanthe$i.jpg" "thumbs/iolanthe$i.jpg"; done;
