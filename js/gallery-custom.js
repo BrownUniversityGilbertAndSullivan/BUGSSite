@@ -16,7 +16,7 @@ window.addEventListener('load', function(){
     var boxarray = [box1oc, box2oc, box4oc, box5oc, box7oc, box8oc, box10oc, box11oc];
     var resetThings = function(box){
         for (var i = 0; i < 8; i++){
-            if (boxarray[i].isSameNode(box)){
+            if (boxarray[i] === box){
                 box.onmouseover = undefined;
                 box.onmouseout = undefined;
             } else {
