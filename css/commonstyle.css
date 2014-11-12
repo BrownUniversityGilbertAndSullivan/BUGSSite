@@ -199,22 +199,8 @@
     text-align: center;
 }
 
-.hovershow {
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 #box-bl:hover div {
     display: inline-block;
-}
-
-.hovershow p {
-    text-align: center;
-    color: black;
 }
 
 .change-show-link {
@@ -241,3 +227,11 @@
 .divwidth {
     width: 100%;
 }
+
+#exit {
+    position: absolute;
+    right: 0%;
+    visibility: hidden;
+    cursor: pointer;
+}
+

@@ -42,7 +42,7 @@
     left: 5.5%;
     width: 12.2%;
     height: 47.4%;
-    background: rgba(255, 255, 255, 0.2);
+    /*background: rgba(255, 255, 255, 0.2);*/
 }
 
 #box-br {
@@ -50,5 +50,5 @@
     right: 6%;
     width: 11.0%;
     height: 45%;
-    background: rgba(255, 255, 255, 0.2);
+    /*background: rgba(255, 255, 255, 0.2);*/
 }

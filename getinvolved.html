@@ -42,9 +42,33 @@ Brown undergraduates, grad students, and community members are all welcome to be
                     </p>
                 </div>
                 <div class="content-box" id="box-tl">
-                    <iframe src="https://docs.google.com/forms/d/1sZPgDAHYBr4XfsEUUMd8dEhwRzxE2eewQrTDXW0G5Kw/viewform?embedded=true&ttl=0" 
+                    <style type="text/css" media="screen">
+                        .ss-form-container{width: 380px;background-color: #FFF;border: 1px solid #CCC;padding: 0.5em 1em;font-size: 0.9em;}.ss-q-title{font-weight: bold;padding-left:7px;display: block;}.ss-q-submit{color: #000;}.ss-form-entry{margin-bottom: 1.5em;} .ss-q-short, .ss-q-submit{background:#f7f7f7;border:solid gray 1px;margin:8px;padding:0px 3px; color:#666666; }</style>
+                    <script type="text/javascript">
+                        function custommsg() {
+                            document.getElementById("form-message").style.display=""; 
+                            document.getElementById("form-message").innerHTML="Thanks for your answers!"; 
+                            document.getElementById("form-container").style.display="none";}</script>
+                    <div class="ss-form-container" style="display:none;" id="form-message"></div>
+                    <div class="ss-form-container" id="form-container">
+                            <form action="" method="POST" target="fake-target" onsubmit="this.action='https://docs.google.com/forms/d/1sZPgDAHYBr4XfsEUUMd8dEhwRzxE2eewQrTDXW0G5Kw/formResponse';">
+                                    <div class="ss-form-entry">
+                                            <span class="ss-q-title">To hear about what we're up to, join our e-mail list here:</span>
+                                            <input type="text" class="ss-q-short" name="single:0" />
+                                    </div>
+                    <!-- 		<div class="ss-form-entry">
+                                            <span class="ss-q-title">What search engines did you use before Google?</span>
+                                            <input type="text" class="ss-q-short" name="single:1" />
+                                    </div> -->
+                                    <p></p>
+                                    <input type="submit" class="ss-q-submit" value="Submit" />
+                            </form>
+                    </div>
+                    <iframe src="#" id="fake-target" name="fake-target" style="width:0px; height:0px; border:0px;"></iframe>
+                    <br />
+<!--                    <iframe src="https://docs.google.com/forms/d/1sZPgDAHYBr4XfsEUUMd8dEhwRzxE2eewQrTDXW0G5Kw/viewform?embedded=true&ttl=0" 
                             width="248" height="164" frameborder="0" marginheight="0" 
-                            marginwidth="0">Loading...</iframe>
+                            marginwidth="0">Loading...</iframe>-->
                 </div>
                 <div class="content-box" id="box-ml">
                     

@@ -28,21 +28,23 @@
             <div class="menu-container">
                 <div class="content-box" id="center-main">
                     <!--Content goes here -->
-                    <h2>
-                    BUGS is proud to announce our
-                    Fall 2014 production of <em>Ruddigore</em>!
-                    </h2>
-                    <h3>
-                        Directed by Jonathan West ‘16<br>
-                    Music Directed by Ian MacDougald '17
-                    and Jonny Abrams ‘15
-                    </h3>
-                    <h3>
-                    E-mail Production Manager Solomon Goldstein-Rose
-                    (Solomon_Goldstein-Rose@brown.edu) if you are
-                    interested in being part of the production team
-                    </h3>
-
+                    <button id="exit">X</button>
+                    <div id="text">
+                        <h2>
+                        BUGS is proud to announce our
+                        Fall 2014 production of <em>Ruddigore</em>!
+                        </h2>
+                        <h3>
+                            Directed by Jonathan West ‘16<br>
+                        Music Directed by Ian MacDougald '17
+                        and Jonny Abrams ‘15
+                        </h3>
+                        <h3>
+                        E-mail Production Manager Solomon Goldstein-Rose
+                        (Solomon_Goldstein-Rose@brown.edu) if you are
+                        interested in being part of the production team
+                        </h3>
+                    </div>
                 </div>
                 <div class="content-box" id="box-tl">
                     
@@ -51,9 +53,7 @@
                     
                 </div>
                 <div class="content-box" id="box-bl">
-                    <div class="hovershow">
-                        <p>Donate to BUGS!</p>
-                    </div>
+                    
                 </div>
                 <div class="content-box" id="box-tr">
                     
@@ -62,7 +62,14 @@
                     
                 </div>
                 <div class="content-box" id="box-br">
-                    
+                    <div id="fb-root"></div>
+                    <script>(function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
                 </div>
                 <div class="link-box" id="link-bl">
                     <a href="http://www.brown.edu" target="_blank">
@@ -85,5 +92,6 @@
                 <a class="menu-link" id="menu6" href="getinvolved.html"></a>
             </div>
         </div>
+        <script src="js/donate.js"></script>
     </body>
 </html>
