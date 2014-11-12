@@ -47,11 +47,15 @@
 }
 
 #box-br {
-    bottom: 8.7%;
+    bottom: 10.7%;
     right: 3%;
     width: 18.4%;
     height: 12.9%;
     /*background: rgba(255, 255, 255, 0.2);*/
+    color: #f2d9d0;
+}
+
+.ss-q-title {
     color: #f2d9d0;
 }
 
