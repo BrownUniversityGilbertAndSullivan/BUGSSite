@@ -39,8 +39,8 @@
 
 #box-bl {
     bottom: 6%;
-    left: 5.5%;
-    width: 12.2%;
+    left: 3.5%;
+    width: 17%;
     height: 47.4%;
     color: #f2d9d0;
     /*background: rgba(255, 255, 255, 0.2);*/
@@ -48,8 +48,8 @@
 
 #box-br {
     bottom: 6%;
-    right: 6%;
-    width: 11.0%;
+    right: 3%;
+    width: 17.0%;
     height: 45%;
     color: #f2d9d0;
     /*background: rgba(255, 255, 255, 0.2);*/
