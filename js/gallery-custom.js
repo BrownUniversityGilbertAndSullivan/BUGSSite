@@ -1495,18 +1495,12 @@ window.addEventListener('load', function(){
                 "<img src='gallery/misc/thumbs/misc5.jpg' alt='Miscellaneous'/></a>" +
                 "<a href='gallery/misc/misc6.jpg' title='Miscellaneous' data-description=''>" + 
                 "<img src='gallery/misc/thumbs/misc6.jpg' alt='Miscellaneous'/></a>" +
-                "<a href='gallery/misc/misc7.jpg' title='Miscellaneous' data-description=''>" + 
-                "<img src='gallery/misc/thumbs/misc7.jpg' alt='Miscellaneous'/></a>" +
                 "<a href='gallery/misc/misc8.jpg' title='Miscellaneous' data-description=''>" + 
                 "<img src='gallery/misc/thumbs/misc8.jpg' alt='Miscellaneous'/></a>" +
                 "<a href='gallery/misc/Ruddigore.png' title='Miscellaneous' data-description=''>" + 
                 "<img src='gallery/misc/thumbs/Ruddigore.png' alt='Miscellaneous'/></a>" +
-                "<a href='gallery/misc/rudposter3.png' title='Miscellaneous' data-description=''>" + 
-                "<img src='gallery/misc/thumbs/rudposter3.png' alt='Miscellaneous'/></a>" +
                 "<a href='gallery/misc/rudposter4.png' title='Miscellaneous' data-description=''>" + 
-                "<img src='gallery/misc/thumbs/rudposter4.png' alt='Miscellaneous'/></a>" +
-                "<a href='gallery/misc/rudposter3.gif' title='Miscellaneous' data-description=''>" + 
-                "<img src='gallery/misc/thumbs/rudposter3.gif' alt='Miscellaneous'/></a>";
+                "<img src='gallery/misc/thumbs/rudposter4.png' alt='Miscellaneous'/></a>";
     };
     //Sing-in 2013
     box8oc.onclick = function(event){
