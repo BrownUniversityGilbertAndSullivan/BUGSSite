@@ -22,7 +22,7 @@
     position: absolute;
     /*background: rgba(255, 255, 255, 0.4);*/ 
     /*border: 1px solid pink;*/
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     border-radius: 0%;
 }
 
@@ -159,6 +159,7 @@
     width: 36.9%;
     height: 50%;
     overflow-y: auto;
+    font-size: 1.4vw;
 }
 
 #link-bl {
