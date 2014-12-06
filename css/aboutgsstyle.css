@@ -43,6 +43,7 @@
     width: 17%;
     height: 47.4%;
     color: #f2d9d0;
+    font-size: 1.2vw;
     /*background: rgba(255, 255, 255, 0.2);*/
 }
 
@@ -52,5 +53,6 @@
     width: 17.0%;
     height: 45%;
     color: #f2d9d0;
+    font-size: 1.2vw;
     /*background: rgba(255, 255, 255, 0.2);*/
 }

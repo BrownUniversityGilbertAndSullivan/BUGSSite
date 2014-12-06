@@ -14,6 +14,7 @@
     left: 3%;
     width: 18.2%;
     height: 24.4%;
+    font-size: 1.2vw;
 }
 
 #box-tr {
@@ -23,6 +24,7 @@
     height: 31.4%;
     /*background: rgba(255, 255, 255, 0.2);*/
     color: #f2d9d0;
+    font-size: 1.2vw;
 }
 
 #box-tr a {
@@ -54,6 +56,7 @@
     height: 12.9%;
     /*background: rgba(255, 255, 255, 0.2);*/
     color: #f2d9d0;
+    font-size: 1.2vw;
 }
 
 .ss-q-title {
