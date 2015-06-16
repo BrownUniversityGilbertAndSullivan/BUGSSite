@@ -95,28 +95,9 @@
             </div>
         </div>
         <script src="js/blueimp-gallery.min.js"></script>
-        <script src="js/gallery-custom.js"></script>
+        <script src="js/gallery-custom.min.js"></script>
         <script>
-            document.getElementById('links').onclick = function (event) {
-            event = event || window.event;
-            var target = event.target || event.srcElement,
-                link = target.src ? target.parentNode : target,
-                options = {
-                    index: link, 
-                    event: event,
-                    onslide: function (index, slide) {
-                        var text = this.list[index].getAttribute('data-description'),
-                            node = this.container.find('.description');
-                        console.log(text);
-                        node.empty();
-                        if (text) {
-                            node[0].appendChild(document.createTextNode(text));
-                        }
-                    }
-                },
-                links = this.getElementsByTagName('a');
-            blueimp.Gallery(links, options);
-            };
+            document.getElementById("links").onclick=function(e){e=e||window.event;var t=e.target||e.srcElement,n=t.src?t.parentNode:t,i={index:n,event:e,onslide:function(e){var t=this.list[e].getAttribute("data-description"),n=this.container.find(".description");console.log(t),n.empty(),t&&n[0].appendChild(document.createTextNode(t))}},o=this.getElementsByTagName("a");blueimp.Gallery(o,i)};
         </script>
     </body>
 </html>
